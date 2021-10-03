@@ -1,0 +1,10 @@
+.section_form {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: white;
+}

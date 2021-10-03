@@ -1,0 +1,50 @@
+.cast_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.cast_item {
+  display: block;
+  width: 220px;
+  height: 398px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #4682b4;
+}
+
+.cast_item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.cast_photo {
+  display: block;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-right: 0;
+  width: 220px;
+  height: 280px;
+}
+
+.cast_name {
+  padding: 8px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cast_character {
+  padding: 8px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

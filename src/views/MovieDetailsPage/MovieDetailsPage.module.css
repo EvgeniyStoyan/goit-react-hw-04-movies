@@ -1,0 +1,95 @@
+.button_back {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: none;
+  border-style: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #2196f3;
+  color: white;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button_back:hover,
+.button_back:focus {
+  transform: scale(1.15);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: #2196f3;
+}
+
+.card_movie {
+  display: flex;
+  align-items: flex-start;
+  background-color: #4682b4;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 500px;
+}
+
+.card_text {
+  display: block;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.poster {
+  display: block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 500px;
+}
+
+.movie_title {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.score {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.overview_text {
+  color: white;
+}
+
+.genres_list {
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.information {
+  color: red;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.information_list {
+  list-style: none;
+}

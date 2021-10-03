@@ -1,0 +1,26 @@
+.reviews_list {
+  list-style: none;
+}
+
+.reviews_item {
+  border-radius: 5px;
+  background-color: #4682b4;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.reviews_text {
+  color: white;
+}
+
+.author {
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 2opx;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+}
+.reviews_no {
+  color: white;
+}

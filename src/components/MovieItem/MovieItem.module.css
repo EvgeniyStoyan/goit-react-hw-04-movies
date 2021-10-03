@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #a9a9a9;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+  color: #a9a9a9;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
